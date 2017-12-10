@@ -1,0 +1,97 @@
+body{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+h3{
+	font-weight: bold;
+}
+
+.lgin{
+	color:gray;
+}
+
+.nolist{
+	list-style-type:none;
+	padding:0px;
+    margin:0px;
+}
+
+.nobg{
+	background-color:none;
+	background:none;
+	border:none;
+	color:#6a737d;
+	width:25px;
+	text-align:center;
+}
+
+.nobg2{
+	background-color:none;
+	background:none;
+	border:none;
+	color:#f1e05a;
+	width:25px;
+	text-align:center;
+}
+
+.tabx{
+	color:#6a737d;
+	border:none;
+	background:white;
+	border-bottom:3px;
+}
+
+.nav-tabs>li>.tabx:hover{
+	color:black;
+	border:none;
+	border-bottom:3px solid #e36209;
+	background:white;
+}
+
+.nav-tabs>li>.activet{
+	border-bottom:3px solid #286090;
+	font-weight:bold;
+	color:black;
+	background:white;
+	
+}
+
+.nav-tabs>li>.activet:hover{
+	border-bottom:3px solid #286090;
+	font-weight:bold;
+	color:black;
+	background:white;
+}
+
+.pinrepo{
+	margin-top:40px;
+	font-size:16px;
+}
+
+.bd{
+	border:1px solid #286090;
+	border-radius:5px;
+	margin-right:5px;
+	margin-left:0px;
+	padding-left:15px;
+	margin-bottom:15px;
+}
+
+.bd2{
+	border:1px solid #286090;
+	border-radius:5px;
+	margin-left:5px;
+	margin-right:0px;
+	padding-left:15px;
+	margin-bottom:15px;
+}
+
+.fot{
+	display: inline;
+	margin-right:10px;
+}
+
+.fot:last-child{
+	margin-right:0px;
+}

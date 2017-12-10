@@ -24,9 +24,9 @@ w3.includeHTML = function(cb) {
 };
 w3.includeHTML();
 
-	var obj = new Object();
-	var error = new Object();
-	$.getJSON('https://api.github.com/users/andhikamaheva').done(function (data) {
+var obj = new Object();
+var error = new Object();
+$.getJSON('profiles.json').done(function (data) {
 	obj = data;
 	document.getElementById("namae").innerHTML = obj.name;
 	document.getElementById("login").innerHTML = obj.login;
@@ -38,6 +38,6 @@ w3.includeHTML();
 	document.getElementById("repos").innerHTML = obj.public_repos;
 	document.getElementById("followers").innerHTML = obj.followers;
 	document.getElementById("following").innerHTML = obj.following;
-	}).error(function (err) {
+}).error(function (err) {
 	error = err;
-	});
+});

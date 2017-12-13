@@ -13,6 +13,7 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
+    "paginationjs": "^2.1.0",
     "path": "^0.12.7",
     "path.join": "^1.0.0"
   },

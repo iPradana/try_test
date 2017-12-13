@@ -3,25 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>User Profile</title>
-		
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/font-awesome.css">
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/main.css">
-		<script
-		  src="js/contributor.js"
-		>
-		</script>
-
-		<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-		<link
-		  rel="stylesheet"
-		  href="css/gitcontributor.css"
-		/>
+		<%- include header %>
 	</head>
 	<body>
 		<div class="col-md-10 col-md-offset-1">
@@ -67,36 +49,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-10 col-md-offset-1" style="margin-bottom:20px;">
-			<hr>
-			<div class="col-md-5">
-				<ul style="list-style-type: none; margin: 0; padding: 0;">
-					<h6>
-						<li class="fot">© 2017 GitHub, Inc.</li>
-						<li class="fot"><a>Terms</a></li>
-						<li class="fot"><a>Privacy</a></li>
-						<li class="fot"><a>Security</a></li>
-						<li class="fot"><a>Status</a></li>
-						<li class="fot"><a>Help</a></li>
-					</h6>
-				</ul>
-			</div>
-			<div class="col-md-2">
-				<center><i class="fa fa-github fa-2x" aria-hidden="true"></i></center>
-			</div>
-			<div class="col-md-5">
-				<ul style="list-style-type: none; margin: 0; padding: 0;" class="pull-right">
-					<h6>
-						<li class="fot"><a>Contact GitHub</a></li>
-						<li class="fot"><a>API</a></li>
-						<li class="fot"><a>Training</a></li>
-						<li class="fot"><a>Shop</a></li>
-						<li class="fot"><a>Blog</a></li>
-						<li class="fot"><a>About</a></li>
-					</h6>
-				</ul>
-			</div>
-		</div>
+		<%- include footer %>
 	</body>
 		<script src="js/default.js"></script>
 		<script>
